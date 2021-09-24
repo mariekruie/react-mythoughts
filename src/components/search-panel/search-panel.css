@@ -1,0 +1,15 @@
+.search-panel {
+  margin: 1rem 0;
+}
+
+.search-panel .search-input {
+  width: auto;
+  flex-grow: 1;
+  margin-right: 3px;
+}
+
+@media (max-width: 460px) {
+  .search-panel > input {
+    max-width: 60%;
+  }
+}

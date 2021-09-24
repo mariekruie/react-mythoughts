@@ -1,0 +1,17 @@
+.app-list {
+  margin-top: 50px;
+}
+.app-list .list-group-item {
+  padding: 20px 35px 10px 35px;
+  margin-top: 10px;
+}
+
+@media (max-width: 460px) {
+  .app-list {
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+  .app-list .list-group-item {
+    padding: 0.8rem 1rem;
+  }
+}

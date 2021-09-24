@@ -1,0 +1,11 @@
+.app {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+@media (max-width: 460px) {
+  .sc-gtsrHT.hCDBMm {
+    padding: 0 1rem;
+    overflow: hidden;
+  }
+}
